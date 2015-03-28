@@ -1,0 +1,13 @@
+.center {
+    position: absolute;
+    top: 50%;
+    width: 700px;
+    margin: 0 -50% 0 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.count-btn-holder {
+    text-align: center;
+    margin-top: 25px;
+}
