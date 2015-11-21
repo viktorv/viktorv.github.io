@@ -84,7 +84,7 @@
         var number = getNumber();
         if(checkNumber(number)){
             var result = calculationProc(number);
-            resultField.value = result.text + "=" + result.int;
+            resultField.value = result;
             countFinished = true;
         } else {
             alert("Entered number is not correct");
