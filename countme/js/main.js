@@ -77,7 +77,10 @@
     }
 
     function calculationProc (number) {
-                 return Math.sqrt(number);
+            if (number>0)
+            {return Math.sqrt(number);}
+                 else
+                 { alert("Ведіть число більше нуля");}
             }
 
     function count () {
