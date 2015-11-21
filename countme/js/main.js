@@ -77,10 +77,10 @@
     }
 
     function calculationProc (number) {
-        if(number%2 != 0) {
-            return calcOdd(number);
+        if(number > 0) {
+            return Math.sqrt(number);
         } else {
-            return calcEven(number);
+            console.log ("введіть число більше нуля!");
         }
     }
 
