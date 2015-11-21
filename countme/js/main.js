@@ -77,12 +77,8 @@
     }
 
     function calculationProc (number) {
-        if(number > 0) {
-            return Math.sqrt(number);
-        } else {
-            console.log ("введіть число більше нуля!");
-        }
-    }
+                 return Math.sqrt(number);
+            }
 
     function count () {
         var number = getNumber();
